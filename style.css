@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.6rem;
+    background-color: rgb(5, 5, 5);
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    color: rgb(39, 43, 44);
+  }
+
+  .container {
+    width: min(70rem, 100%);
+    margin-inline: auto;
+  }
+  
+  img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  .title {
+    font-size: 4rem;
+    font-weight: normal;
+  }
+  
+  .profile {
+    max-width: 88rem;
+    box-sizing: border-box;
+    margin-bottom: 9rem;
+  }
+  
+  .box {
+    background: rgb(248, 255, 207);
+    padding: 6rem;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 5rem;
+    
+    /*opacidade*/
+    opacity: 0.90;
+    -moz-opacity: 0.90;
+    filter: alpha(opacity=90);
+    -webkit-filter: opacity(0.90);
+    /*filtro P/B*/
+    filter: rgb(128, 128, 128);
+    /* IE6-9 */
+    -webkit-filter: grayscale(100%);
+    /* Chrome 19+ & Safari 6+ */
+    /*qualidade*/
+    image-rendering: auto;
+  }
+  .box:hover {
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-filter: opacity(1);
+    filter: none;
+    /* Firefox 10+ */
+    -webkit-filter: grayscale(0%);
+    /* Chrome 19+ & Safari 6+ */
+    image-rendering: auto;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    max-width: 40%;
+    margin: 0 auto 3rem auto;
+  }
+  
+  .profile p {
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .portfolio {
+    max-width: 88rem;
+    box-sizing: border-box;
+    margin-top: 5rem;
+    background-color: rgb(255, 255, 223);
+  }
+  
+  .portfolio li {
+    display: block;
+    block-size: fit-content;
+    text-align: center;
+    color: rgb(96, 96, 96);
+  }
+  
+  .portfolio ul li a img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .portfolio ul li#a,#b {
+    padding-bottom: 7rem;
+  }
+  
+  .portfolio h2 {
+    font-weight: normal;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .image {
+    /*opacidade*/
+    opacity: 0.90;
+    -moz-opacity: 0.75;
+    filter: alpha(opacity=75);
+    -webkit-filter: opacity(0.75);
+    /*filtro P/B*/
+    filter: rgb(128, 128, 128);
+    /* IE6-9 */
+    -webkit-filter: grayscale(100%);
+    /* Chrome 19+ & Safari 6+ */
+    /*qualidade*/
+    image-rendering: auto;
+  }
+  .image:hover {
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-filter: opacity(1);
+    filter: none;
+    /* Firefox 10+ */
+    -webkit-filter: grayscale(0%);
+    /* Chrome 19+ & Safari 6+ */
+    image-rendering: auto;
+  }
+  
+  .closing {
+    max-width: 88rem;
+    box-sizing: border-box;
+    font-size: 1.8rem;
+    background-color: rgb(255, 240, 174);
+  }
+
+  .copyright {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 16px rgb(0, 0, 0);
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
